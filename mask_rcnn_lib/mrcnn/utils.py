@@ -282,6 +282,9 @@ class Dataset(object):
         image_info.update(kwargs)
         self.image_info.append(image_info)
 
+    def get_image_list_size(self):
+        return len(self.image_info)
+
     def image_reference(self, image_id):
         """Return a link to the image in its source Website or details about
         the image that help looking it up or debugging it.
@@ -351,12 +354,20 @@ class Dataset(object):
         debugging.
         """
         return self.image_info[image_id]["path"]
-
+   
+    def load_lmdb(self, lmdb=None):
+        self.lmdb = lmdb
+    
     def load_image(self, image_id):
         """Load the specified image and return a [H,W,3] Numpy array.
         """
         # Load image
-        image = skimage.io.imread(self.image_info[image_id]['path'])
+        image = None
+        if None != self.lmdb:
+            image = self.lmdb[image_id]
+            #image = np.asarray(self.lmdb[image_id])
+        else:
+            image = skimage.io.imread(self.image_info[image_id]['path'])
         # If grayscale. Convert to RGB for consistency.
         if image.ndim != 3:
             image = skimage.color.gray2rgb(image)
