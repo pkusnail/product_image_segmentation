@@ -1,10 +1,10 @@
 # product_image_segmentation
 
-| <img src=data/modanet_epoch6/10390187_22dcdd79fac36a4a2a0c8bb3ca3182c1.jpg width=375>      | <img src=data/modanet_epoch6/10579132_7dc26dd4ae038798197e215414a63b99.jpg width=375>     | <img src=data/modanet_epoch6/10106352_2d963aa4c36c1ec56d98ab44929efca8.jpg width=375>     |
-| ---------- | :-----------:  | :-----------: |
-| <img src=data/modanet_epoch6/10480277_455f6d7c7ed86b963f2d46f755c6f535.jpg width=375>     | <img src=data/modanet_epoch6/10477837_365301c24f74f35fbb28fe631245604c.jpg width=375>     | <img src=data/modanet_epoch6/10470870_0e3ffd27c45381ba304f373fc2e8d77f.jpg width=375>     |
+| <img src=data/modanet_epoch6/10390187_22dcdd79fac36a4a2a0c8bb3ca3182c1.jpg width=375> | <img src=data/modanet_epoch6/10579132_7dc26dd4ae038798197e215414a63b99.jpg width=375>     | <img src=data/modanet_epoch6/10106352_2d963aa4c36c1ec56d98ab44929efca8.jpg width=375>     |
 | ---------- | -----------  | ----------- |
-<img src=data/modanet_epoch6/10736337_c24d0e25446071004d503ed92815d763.jpg  width=375> | <img  src=data/modanet_epoch6/10842189_582a464aabc178092782415a6d13f08c.jpg  width=375> | <img  src=data/modanet_epoch6/10579132_bdfc4e6a76d56c9a35fa41deca412846.jpg  width=375>|
+| <img src=data/modanet_epoch6/10480277_455f6d7c7ed86b963f2d46f755c6f535.jpg width=375>     | <img src=data/modanet_epoch6/10477837_365301c24f74f35fbb28fe631245604c.jpg width=375>     | <img src=data/modanet_epoch6/10470870_0e3ffd27c45381ba304f373fc2e8d77f.jpg width=375>     |
+
+| <img src=data/modanet_epoch6/10736337_c24d0e25446071004d503ed92815d763.jpg  width=375> | <img  src=data/modanet_epoch6/10842189_582a464aabc178092782415a6d13f08c.jpg  width=375> | <img  src=data/modanet_epoch6/10579132_bdfc4e6a76d56c9a35fa41deca412846.jpg  width=375>|
 
 
 # Algorithm
