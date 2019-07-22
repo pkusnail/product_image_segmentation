@@ -9,7 +9,7 @@
 
 # Algorithm
 
-  In order to do image segmentation and object detection at the same time, and train the data within 2 weeks and get a good enough model, I chose Mask RCNN with Resnet 50 as backbone.
+  In order to do image segmentation and object detection at the same time, and train the data within 2 weeks and get a good enough model, I chose Mask RCNN with Resnet 50 as backbone.\
   I modified [matterport Mask RCNN](https://github.com/matterport/Mask_RCNN) to support training with annotation from [ebay Modanet](https://github.com/eBay/modanet) and images from [paperdoll](https://github.com/kyamagu/paperdoll)
 
 # DataSet
@@ -30,7 +30,7 @@
  
 
 # The Result
-  The mAP @ IoU=50 of  epoch 27 model of Moda Net is around 0.4993029372193688.\
+  The mAP @ IoU=50 of  epoch 27 model is around 0.4993029372193688.\
   I applied the epoch 6 model of Moda Net to shopee image dataset, results are in the [sample](data/modanet_epoch6) folder.
 
   
