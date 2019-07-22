@@ -9,9 +9,8 @@
 
 # Algorithm
 
-  In order to do image segmentation and object detection at the same time, and train the data within 2 weeks and get a good enough model, I chose Mask RCNN with Resnet 50 as backbone.\
-  I modified [matterport Mask RCNN](https://github.com/matterport/Mask_RCNN) to support training with annotation from [ebay Modanet](https://github.com/eBay/modanet) and images from [paperdoll](https://github.com/kyamagu/paperdoll)
-
+  In order to do image segmentation and object detection at the same time, and train the data within 2 weeks and get a good enough model, I chose Mask RCNN with Resnet 50 as backbone.
+  
 # DataSet
    data sources:
   * [imaterialist-fashion-2019-FGVC6](https://www.kaggle.com/c/imaterialist-fashion-2019-FGVC6)
@@ -31,6 +30,6 @@
 
 # The Result
   The mAP @ IoU=50 of  epoch 27 model is around 0.4993029372193688.\
-  I applied the epoch 6 model to shopee image dataset, results are in the [sample](data/modanet_epoch6) folder.
+  I applied the epoch 6 model to shopee image dataset, results are in the [sample](data/modanet_epoch6) folder. The pictures in this readme are also outputs of the model.
 
   
