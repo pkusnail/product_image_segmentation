@@ -23,4 +23,14 @@
   
 # Training Process
 
-  I deployed 2 servers with GPUs in Google Cloud, I mainly used jupyter notebook in this repo to explore and train the data, after each training , I applied the model to the shopee image set to check the predicted results, and improved the datatsets and algorithms accordingly.
+  I deployed 2 servers with GPUs in Google Cloud, I mainly used jupyter notebook in this repo to explore and train the data, after each training , I applied the model to the shopee image set to check the predicted results, and improved the datatsets and algorithms accordingly. I trained the models on GPU more than 700 hours GPU hours, with at most 8 K80 GPUs worked together.
+  I trained the models on [imaterialist-fashion-2019-FGVC6](https://www.kaggle.com/c/imaterialist-fashion-2019-FGVC6) dataset with pretrained COCO H5 file, due to the mismatch between the annotation and our requirement, the result was not good enough, the records are in MaskR-CNN-FGVC6-resnet50.ipynb and MaskR-CNN-FGVC6-resnet50-aug.ipynb.
+  I made DIY dataset myself, crawled images from google and bing, and I developed a tool to automatically make annotations and masks. But due to the slow process and the time limit, I just add few images into the dataset I used.
+  Finally, I use Moda Net annotation with paperdoll image dataset, with pretrained model from FGVC6.
+ 
+
+# The Result
+  The mAP @ IoU=50 of  epoch 27 model of Moda Net is around 0.4993029372193688.
+  I applied the epoch 6 model of Moda Net to shopee image dataset, results are in the [sample](data/modanet_epoch6) folder.
+
+  
