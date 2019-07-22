@@ -31,6 +31,6 @@
 
 # The Result
   The mAP @ IoU=50 of  epoch 27 model is around 0.4993029372193688.\
-  I applied the epoch 6 model of Moda Net to shopee image dataset, results are in the [sample](data/modanet_epoch6) folder.
+  I applied the epoch 6 model to shopee image dataset, results are in the [sample](data/modanet_epoch6) folder.
 
   
