@@ -49,5 +49,21 @@
 # The Result
   The mAP @ IoU=50 of  epoch 27 model is around 0.4993029372193688.\
   I applied the epoch 6 model to shopee image dataset, results are in the [sample](data/modanet_epoch6) folder. The pictures in this readme are also outputs of the model.
-
   
+## Bounding Box Evaluation
+
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.423\
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.662\
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.539\
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.177\
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.282\
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.494\
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.456\
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.482\
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.482\
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.175\
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.302\
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.611
+
+ ## Segmentation Evaluation
+ 
